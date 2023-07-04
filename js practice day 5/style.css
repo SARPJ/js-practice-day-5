@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+}
+#box {
+  height: 5vh;
+  width: 500px;
+  margin: 23px 80px;
+  background-color: powderblue;
+  border: 2px solid black;
+  padding: 154px;
+}
+
+#box > input {
+  height: 50px;
+  width: 250px;
+  font-size: 28px;
+}
+
+button {
+  margin: 5px 700px;
+  padding: 15px;
+  background-color: coral;
+  color: white;
+  font-size: 28px;
+}
+button:hover {
+  background-color: #fff;
+  color: coral;
+}
+
+#box2 {
+  height: 5vh;
+  width: 500px;
+  margin: 23px 80px;
+  background-color: powderblue;
+  border: 2px solid black;
+  padding: 154px;
+}
